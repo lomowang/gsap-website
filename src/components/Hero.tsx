@@ -73,7 +73,10 @@ const Nav: React.FC = () => {
 
   return (
     <div id="main">
-      <div id="video-container" className="h-screen w-full mt-4 ">
+      <div
+        id="video-container"
+        className="h-screen w-full mt-4  sm:h-25vh sm:mt-[3vw] sm:px-3 "
+      >
         <div
           id="play"
           className={`py-[3vw] px-[2.2vw] bg-black text-white text-[1.3vw] uppercase font-futura fixed rounded-full ${

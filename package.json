@@ -11,10 +11,15 @@
   },
   "dependencies": {
     "gsap": "^3.12.2",
+    "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "remixicon": "^3.5.0",
+    "scrollmagic": "^2.0.8",
+    "scrolltrigger": "^1.0.1"
   },
   "devDependencies": {
+    "@types/locomotive-scroll": "^4.1.1",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",

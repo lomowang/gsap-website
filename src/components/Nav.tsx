@@ -50,10 +50,13 @@ const Nav: React.FC = () => {
 
   return (
     <div id="main">
-      <div id="page1" className="h-full w-full relative p-0 pt-[20vh]">
+      <div
+        id="page1"
+        className="h-full w-full relative sm:px-0 sm:py-3vw sm:pt-[50vh] sm:min-h-[70vh] "
+      >
         <h1
           ref={h1Ref1} // 使用第一个 ref
-          className={`text-[15.2vw] font-black font-futura uppercase leading-[14vw] tracking-[-8px] ${
+          className={`text-[15.2vw] font-black font-futura uppercase leading-[14vw] tracking-[-8px] sm:text-15vw  sm:tracking-[1px]  ${
             titleAnimation ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -61,7 +64,7 @@ const Nav: React.FC = () => {
         </h1>
         <h1
           ref={h1Ref2} // 使用第二个 ref
-          className={`text-[15.2vw] font-black font-futura uppercase leading-[14vw] tracking-[-8px] ${
+          className={`text-[15.2vw] font-black font-futura uppercase leading-[14vw] tracking-[-8px]  sm:text-15vw  sm:tracking-[1px] ${
             titleAnimation ? "opacity-100" : "opacity-0"
           }`}
         >
